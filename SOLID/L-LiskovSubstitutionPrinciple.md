@@ -4,14 +4,14 @@ Este principio es un grupo de comprobaciones que ayudan a predecir si una subcla
 
 Diagrama de una implementación incorrecta, ya que la clase padre lleva un método que presentara fallos para archivos que son de solo lectura. Método save();
 
-![](/SOLID/Images/LiskovSubstitutionWrong.png)
+![](/Images/LiskovSubstitutionWrong.png)
 
 
 Una correcta implementación del principio se evidencia a continuación en la que se realiza la asociación de una clase para los documentos de escritura y a esta clase si se le implementa el metodo de save();
 
 
 
-![](/SOLID/Images/LiskovSubstitutionGood.png)
+![](/Images/LiskovSubstitutionGood.png)
 
 
 

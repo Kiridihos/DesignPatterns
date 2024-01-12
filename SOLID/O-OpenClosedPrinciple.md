@@ -10,10 +10,10 @@ Damos el caso de que tenemos un dashboard que tiene la funcion crear unos widget
 Una vez finalizada la implmenetación, nos llega un requerimiento para crear otro widget mas exclusivo para clientes premium. Lo incorrecto de acuerdo a este principio seria modificar la cfunció de widget para agregar este nuevo que es el gerencial.
 Aca un ejemplo agregando este nuevo widget
 
-![Imagen de unas nubes](/SOLID/Images/OpenClosedPrincipleWrong.png)
+![Imagen de unas nubes](/Images/OpenClosedPrincipleWrong.png)
 
 La solución ideal es generar nuevas clases que implementen dichas funcionalidades, para esto puedes extender las clases y agregar tus nuevas funcionalidades.
 
 Aca la manera correcta de aplicar el principio
 
-![Imagen de unas nubes](/SOLID/Images/OpenClosedPrincipleGood.png)
+![Imagen de unas nubes](/Images/OpenClosedPrincipleGood.png)
